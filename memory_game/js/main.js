@@ -53,6 +53,15 @@ var createBoard = function(){
 
 createBoard();
 
+var resetGame = function(){
+  cardsInPlay = [];
+  createBoard();
+}
+
+// var resetButton = function(){
+  document.getElementsByClassName("resetButton")[0].addEventListener("click", resetGame);
+// }
+
 // flipCard(0);
 // flipCard(2);
 

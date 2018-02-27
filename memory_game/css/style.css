@@ -111,3 +111,11 @@ footer {
   color: #F15B31;
   font-weight: 700;
 }
+
+.resetButton {
+    background: #111111;
+    color: red;
+    margin: 13px auto;
+    display: block;
+    padding: 21px 35px;
+}
